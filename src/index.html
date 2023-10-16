@@ -1,0 +1,129 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png" />
+
+    <title>Frontend Mentor | Results summary component</title>
+
+    <script type="module" src="/main.js" defer></script>
+  </head>
+  <body>
+    <cover-l noPad space="0">
+      <center-l class="center-el" max="100%">
+
+        <!-- Component -->        
+        <div class="result-summary">
+          <div class="results">
+            <center-l andText max="100%">
+              <stack-l space="var(--s2)" splitAfter="3">
+                <h1 class="results__title">Your Result</h1>
+                <div class="score-circle">
+                  <p class="center-el">
+                    <span class="score-circle__score">76</span>
+                    of 100
+                  </p>
+                </div>
+                <stack-l space="var(--s-1)">
+                  <p class="results__rating">Great</p>
+                  <p class="results__comments">
+                  You scored higher than 65% of the
+                  people who have taken these tests.
+                  </p>
+                </stack-l>
+              </stack-l>
+            </center-l>
+          </div>
+
+          <div class="summary">
+            <stack-l space="var(--s2)" splitAfter="2">
+              <h2 class="summary__title">Summary</h2>
+              <stack-l role="list" space="var(--s0)">
+                <cluster-l
+                  role="listitem"
+                  class="category-score category-score--reaction"
+                  justify="space-between"
+                  >
+                  <cluster-l align="center" space="var(--s-1)">
+                    <img class="category-score__icon" src="assets/images/icon-reaction.svg" alt="">
+                    <h3 class="category-score__category-name">Reaction</h3>
+                  </cluster-l>
+                  <p>
+                  <span class="category-score__score">80</span>
+                  / 100
+                  </p>
+                </cluster-l>
+                <cluster-l
+                  role="listitem"
+                  class="category-score category-score--memory"
+                  justify="space-between"
+                  >
+                  <cluster-l align="center" space="var(--s-1)">
+                    <img class="category-score__icon" src="assets/images/icon-memory.svg" alt="">
+                    <h3 class="category-score__category-name">Memory</h3>
+                  </cluster-l>
+                  <p>
+                  <span class="category-score__score">80</span>
+                  / 100
+                  </p>
+                </cluster-l>
+                <cluster-l
+                  role="listitem"
+                  class="category-score category-score--verbal"
+                  justify="space-between"
+                  >
+                  <cluster-l align="center" space="var(--s-1)">
+                    <img class="category-score__icon" src="assets/images/icon-verbal.svg" alt="">
+                    <h3 class="category-score__category-name">Verbal</h3>
+                  </cluster-l>
+                  <p>
+                  <span class="category-score__score">80</span>
+                  / 100
+                  </p>
+                </cluster-l>
+                <cluster-l
+                  role="listitem"
+                  class="category-score category-score--visual"
+                  justify="space-between"
+                  >
+                  <cluster-l align="center" space="var(--s-1)">
+                    <img class="category-score__icon" src="assets/images/icon-visual.svg" alt="">
+                    <h3 class="category-score__category-name">Visual</h3>
+                  </cluster-l>
+                  <p class="category-score__summary-score">
+                    <span class="category-score__score">80</span>
+                    / 100
+                  </p>
+                </cluster-l>
+              </stack-l>
+              <button type="button" class="button button_default">Continue</button>
+            </stack-l>
+          </div>
+        </div>
+
+      </center-l>
+
+      <center-l andText>
+        <div class="attribution">
+          Challenge by
+          <a
+            href="https://www.frontendmentor.io?ref=challenge"
+            target="_blank"
+            style="text-decoration-line: underline; text-decoration-style: wavy;"
+            >
+            Frontend Mentor
+          </a>
+            . Coded by
+          <a
+            href="https://github.com/mavix21"
+            target="_blank"
+            style="color: hsl(245, 75%, 52%)"
+            >mavix21
+          </a>.
+        </div>
+      </center-l>
+    </cover-l>
+  </body>
+</html>

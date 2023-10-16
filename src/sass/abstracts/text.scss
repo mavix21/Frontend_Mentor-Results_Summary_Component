@@ -1,0 +1,17 @@
+:root {
+	--text-light-100: var(--neutral-100);
+	--text-light-200: var(--netural-200);
+	--text-dark-900: var(--neutral-900);
+  
+  --fw-regular: 500;
+  --fw-bold: 700;
+  --fw-black: 800;
+}
+
+@font-face {
+  font-family: 'HankenGrotesk';
+  font-display: swap;
+  font-weight: 100 900;
+  src: url('../../assets/fonts/HankenGrotesk-VariableFont_wght.ttf')
+       format('truetype');
+}

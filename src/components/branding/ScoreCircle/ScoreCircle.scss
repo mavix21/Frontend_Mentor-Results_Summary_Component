@@ -1,0 +1,21 @@
+.score-circle {
+  display: grid;
+  place-content: center;
+  width: 10rem;
+  aspect-ratio: 1 / 1;
+  border-radius: 50%;
+  margin-inline: auto;
+  background: var(--gradient-to-transparent);
+
+  &__score {
+    display: block;
+    font-size: var(--s4);
+    color: hsl(var(--neutral-100));
+    font-weight: var(--fw-black);
+    line-height: 1;
+  }
+
+  @media (min-width: 600px) {
+    width: 12rem;
+  }
+}

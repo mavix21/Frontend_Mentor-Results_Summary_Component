@@ -1,0 +1,14 @@
+:root {
+  --ratio: 1.4;
+  --line-height-small: calc(var(--ratio) * 0.8);
+  --s-1: calc(var(--s0) / var(--ratio));
+  --s0: 1.125rem;
+  --s1: calc(var(--s0) * var(--ratio));
+  --s2: calc(var(--s1) * var(--ratio));
+  --s3: calc(var(--s2) * var(--ratio));
+  --s4: calc(var(--s3) * var(--ratio));
+  --s5: calc(var(--s4) * var(--ratio));
+  --s6: calc(var(--s5) * var(--ratio));
+  --measure: 65ch;
+  --radius: 0.75rem;
+}

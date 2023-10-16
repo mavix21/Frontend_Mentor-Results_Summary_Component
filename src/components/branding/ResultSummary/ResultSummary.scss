@@ -1,0 +1,12 @@
+.result-summary {
+  --padding: var(--s3);
+  max-width: 46rem;
+  display: grid;
+  border-radius: 1.5rem;
+  
+  @media (min-width: 600px) {
+    grid-template-columns: 1fr 1fr;
+    box-shadow: .5rem 1rem 3rem
+      hsl(var(--neutral-900) / .2);
+  }
+}

@@ -1,0 +1,32 @@
+.results {
+  --radius: 1.5rem;
+  padding-inline: var(--s3);
+  padding-block: var(--padding);
+  background: var(--gradient-primary);
+  color: hsl(var(--neutral-200) / .8);
+  border-radius: 0 0 var(--radius) var(--radius);
+  overflow: hidden;
+
+  &__title {
+    font-size: var(--s1);
+    font-weight: 700;
+  }
+
+  &__rating {
+    color: hsl(var(--neutral-100));
+    font-size: var(--s2);
+    font-weight: 700;
+  }
+
+  &__comments {
+    max-inline-size: none;
+  }
+
+  @media (min-width: 600px) {
+    border-radius: var(--radius);
+
+    &__rating {
+      font-size: var(--s2);
+    }
+  }
+}

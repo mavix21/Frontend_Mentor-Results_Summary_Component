@@ -1,0 +1,39 @@
+.category-score {
+  --_bg-clr: var(--bg-clr, hsl(var(--neutral-200)));
+  --_clr: var(--clr, hsl(var(--neutral-900)));
+  background-color: var(--_bg-clr);
+  border-radius: var(--radius);
+  color: hsl(var(--neutral-900) / .6);
+  padding-inline: var(--s0);
+  padding-block: calc(var(--s0) * 0.75);
+
+  &__category-name,
+  &__icon {
+    color: var(--_clr);
+  }
+
+  &__score {
+    color: hsl(var(--neutral-900));
+    font-weight: 700;
+  }
+
+  &--reaction {
+    --bg-clr: hsl(var(--accent-red) / .05);
+    --clr: hsl(var(--accent-red));
+  }
+
+  &--memory {
+    --bg-clr: hsl(var(--accent-yellow) / .05);
+    --clr: hsl(var(--accent-yellow));
+  }
+
+  &--verbal {
+    --bg-clr: hsl(var(--accent-teal) / .05);
+    --clr: hsl(var(--accent-teal));
+  }
+
+  &--visual {
+    --bg-clr: hsl(var(--accent-blue) / .05);
+    --clr: hsl(var(--accent-blue));
+  }
+}

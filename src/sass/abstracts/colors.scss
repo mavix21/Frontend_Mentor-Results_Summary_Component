@@ -1,0 +1,26 @@
+:root {
+	--accent-red: 0 100% 67%; /* hsl(0, 100%, 67%) */
+	--accent-yellow: 39 100% 56%; /* hsl(39 100% 56%) */
+	--accent-teal: 166 100% 37%; /* hsl(166 100% 37%) */
+	--accent-blue: 234 85% 45%; /* hsl(234 85% 45%) */
+
+  --primary-400: 252 100% 67%; /* hsl(252 100% 67%) */
+  --primary-500: 256 72% 46%; /* hsl(256 72% 46%) */
+  --secondary-400: 241 81% 54%; /* hsl(241 81% 54%) */
+  --secondary-500: 241 72% 46%; /* hsl(241 72% 46%) */
+
+	--neutral-100: 0 0% 100%; /* hsl(0 0% 100%) */
+	--neutral-200: 221 100% 96%; /* hsl(221 100% 96%) */
+	--neutral-400: 241 100% 89%; /* hsl(241 100% 89%) */
+	--neutral-900: 224 30% 27%; /* hsl(224 30% 27%) */
+
+  --gradient-primary: linear-gradient(
+    hsl(var(--primary-400)),
+    hsl(var(--secondary-400))
+  );
+
+  --gradient-to-transparent: linear-gradient(
+    hsl(var(--primary-500)),
+    hsl(var(--secondary-500) / 0)
+  );
+}

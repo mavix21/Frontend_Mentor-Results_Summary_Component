@@ -1,0 +1,14 @@
+.summary {
+  padding-block: var(--padding);
+  padding-inline: var(--s2);
+
+  &__title {
+    font-size: var(--s1);
+  }
+
+  @media (min-width: 600px) {
+    &__title {
+      font-size: var(--s1);
+    }
+  }
+}
