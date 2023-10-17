@@ -40,63 +40,11 @@
           <div class="summary">
             <stack-l space="var(--s2)" splitAfter="2">
               <h2 class="summary__title">Summary</h2>
-              <stack-l role="list" space="var(--s0)">
-                <cluster-l
-                  role="listitem"
-                  class="category-score category-score--reaction"
-                  justify="space-between"
-                  >
-                  <cluster-l align="center" space="var(--s-1)">
-                    <img class="category-score__icon" src="assets/images/icon-reaction.svg" alt="">
-                    <h3 class="category-score__category-name">Reaction</h3>
-                  </cluster-l>
-                  <p>
-                  <span class="category-score__score">80</span>
-                  / 100
-                  </p>
-                </cluster-l>
-                <cluster-l
-                  role="listitem"
-                  class="category-score category-score--memory"
-                  justify="space-between"
-                  >
-                  <cluster-l align="center" space="var(--s-1)">
-                    <img class="category-score__icon" src="assets/images/icon-memory.svg" alt="">
-                    <h3 class="category-score__category-name">Memory</h3>
-                  </cluster-l>
-                  <p>
-                  <span class="category-score__score">80</span>
-                  / 100
-                  </p>
-                </cluster-l>
-                <cluster-l
-                  role="listitem"
-                  class="category-score category-score--verbal"
-                  justify="space-between"
-                  >
-                  <cluster-l align="center" space="var(--s-1)">
-                    <img class="category-score__icon" src="assets/images/icon-verbal.svg" alt="">
-                    <h3 class="category-score__category-name">Verbal</h3>
-                  </cluster-l>
-                  <p>
-                  <span class="category-score__score">80</span>
-                  / 100
-                  </p>
-                </cluster-l>
-                <cluster-l
-                  role="listitem"
-                  class="category-score category-score--visual"
-                  justify="space-between"
-                  >
-                  <cluster-l align="center" space="var(--s-1)">
-                    <img class="category-score__icon" src="assets/images/icon-visual.svg" alt="">
-                    <h3 class="category-score__category-name">Visual</h3>
-                  </cluster-l>
-                  <p class="category-score__summary-score">
-                    <span class="category-score__score">80</span>
-                    / 100
-                  </p>
-                </cluster-l>
+              <stack-l
+                id="category-scores"
+                role="list"
+                space="var(--s0)"
+              >
               </stack-l>
               <button type="button" class="button button_default">Continue</button>
             </stack-l>
