@@ -26,7 +26,6 @@ export default class Center extends HTMLElement {
           }
         `.replace(/\s\s+/g, ' ').trim();
         document.head.appendChild(styleEl);
-        console.log(styleEl);
       }
     };
   }
